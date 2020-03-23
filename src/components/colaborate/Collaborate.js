@@ -1,4 +1,5 @@
 import * as React from "react";
+import './collaborate.css';
 
 class Collaborate extends React.Component {
     constructor(props) {
@@ -20,13 +21,17 @@ class Collaborate extends React.Component {
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
-                <label>
-                    Tu respuesta:
-                    <input type="text" value={this.state.value} onChange={this.handleChange} />
-                </label>
-                <input type="submit" value="Submit" />
-            </form>
+            <div className="App">
+                <header className="App-header">
+                    <form onSubmit={this.handleSubmit}>
+                        <label>
+                        ¿Puedo Salir de Casa?
+                            <input type="text" value={this.state.value} onChange={this.handleChange} />
+                        </label>
+                        <input type="submit" value="Submit" />
+                    </form>
+                </header>
+            </div>
         );
     }
 }
