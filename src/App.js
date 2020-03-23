@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import Sentence from "./Sentence";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        NO
+        <Sentence />
       </header>
     </div>
   );
