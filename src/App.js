@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Sentence from "./Sentence";
+import Sentence from "./components/Sentence";
 
 function App() {
   return (
