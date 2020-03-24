@@ -1,5 +1,6 @@
 export const properties = [
-    "NO",
+    "NO CTM",
     "DENTRATE PA DENTRO",
-    "NO CTM"
+    "YA TE PUSISTE LA VACUNA DE AMOR?",
+    "EL VIRUS AUN NO SE PONE BUENA PERSONA"
 ];
