@@ -2,5 +2,6 @@ export const properties = [
     "NO CTM",
     "DENTRATE PA DENTRO",
     "YA TE PUSISTE LA VACUNA DE AMOR?",
-    "EL VIRUS AUN NO SE PONE BUENA PERSONA"
+    "EL VIRUS AUN NO SE PONE BUENA PERSONA",
+    "USTED ES WN O SE HACE?"
 ];
