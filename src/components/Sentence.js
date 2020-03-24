@@ -1,11 +1,15 @@
-import React from 'react';
+import React,{ Component } from 'react';
+import { properties } from '../resources/sentences.js';
 
-function Sentence() {
-    return (
-        <div>
-            NO
-        </div>
-    );
+class Sentence extends Component{
+    render() {
+        const x = Math.floor(Math.random() * 3);
+        return (
+            <div>
+                {properties[x]}
+            </div>
+        );
+    }
 }
 
 export default Sentence;
