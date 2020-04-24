@@ -5,9 +5,9 @@ class Sentence extends Component{
     render() {
         const x = Math.floor(Math.random() * properties.length);
         return (
-            <div>
+            <h1>
                 {properties[x]}
-            </div>
+            </h1>
         );
     }
 }
